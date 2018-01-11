@@ -48,10 +48,11 @@
     "skins"
   ],
   "dependencies": {
-	 "ember-cli-babel": "^4.0.0"
+    "broccoli-funnel": "^2.0.1",
+    "broccoli-merge-trees": "^2.0.0",
+	  "ember-cli-babel": "^4.0.0"
   },
   "ember-addon": {
     "configPath": "tests/dummy/config"
   }
 }
-
