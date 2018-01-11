@@ -72,7 +72,7 @@ module.exports = {
       }
     });
 
-    return new MergeTrees([vendorTree, libs]);;
+    return vendorTree ? new MergeTrees([vendorTree, libs]) : libs;
 
   },
 };
